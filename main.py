@@ -14,18 +14,18 @@ def ask():
 
 	kernel = aiml.Kernel()
 
-	if os.path.isfile("modal/model.brn"):
-	    kernel.bootstrap(brainFile = "modal/model.brn")
+	if os.path.isfile("Model/model.brn"):
+	    kernel.bootstrap(brainFile = "Model/model.brn")
 	else:
-	    kernel.bootstrap(learnFiles = os.path.abspath("startup.xml"), commands = "load aiml")
-	    kernel.saveBrain("modal/model.brn")
+	    kernel.bootstrap(learnFiles = os.path.abspath("AIML_Files/startup.xml"), commands = "load aiml")
+	    kernel.saveBrain("Model/model.brn")
 
 	# kernel now ready for use
 	while True:
 	    if message == "quit":
 	        exit()
 	    elif message == "save":
-	        kernel.saveBrain("modal/model.brn")
+	        kernel.saveBrain("Model/model.brn")
 	    else:
 	        bot_response = kernel.respond(message)
 	        # print bot_response
