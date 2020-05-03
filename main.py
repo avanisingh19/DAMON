@@ -17,7 +17,7 @@ def ask():
 	if os.path.isfile("Model/model.brn"):
 	    kernel.bootstrap(brainFile = "Model/model.brn")
 	else:
-	    kernel.bootstrap(learnFiles = os.path.abspath("AIML_Files/startup.xml"), commands = "load aiml")
+	    kernel.bootstrap(learnFiles = os.path.abspath("startup.xml"), commands = "load aiml")
 	    kernel.saveBrain("Model/model.brn")
 
 	# kernel now ready for use
