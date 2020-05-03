@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+	<category>
+      <pattern>HIGHEST PACKAGE LAST YEAR</pattern>
+      <template>
+		<random>
+			<li>Code Nation offered a package of 32 LPA last year</li>
+			<li>The highest package of 32 LPA was offered by Code Nation last year</li>
+			<li>Maximum package of last year was 32 LPA which was offered by Code Nation</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>AVERAGE PLACEMENT RATE</pattern>
+      <template>
+		<random>
+			<li>GLA has a average of 74% placement</li>
+			<li>Average placement of last 10 years is around 74%</li>
+			<li>GLA has consistently achieved an average of around 74% placement for the last 10 years</li>
+		</random>
+	  </template>
+    </category>
+	
+	
+	<category>
+      <pattern>CORE COMPANIES RECRUITED 5 YEARS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the core companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to view the core companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to know more about the core companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>IT COMPANIES RECRUITED 5 YEARS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the IT companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to view the IT companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to know more about the IT  companies that recruited from RCOEM : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	
+	<category>
+      <pattern>PROCEDURE TRAINING PLACEMENT RECRUITMENT</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the procedure followed by T and P department : https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to view the procedure followed by T and P department : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to know more about the procedure followed by T and P department : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>TRAINING PLACEMENT</pattern>
+      <template>
+		<random>
+			<li>Click on this link to know more about T and P department : https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to know more about T and P department : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to know more about T and P department : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	
+	<category>
+      <pattern>PLACEMENT STATISTICS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the placement statistics : https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to view placement statistics : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to know more about the placement statistics : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>RECRUITING COMPANIES</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the recruiting companies visiting RCOEM: https://www.gla.ac.in/placements</li>
+			<li>Please goto this link to view the recruiting companies visiting RCOEM : https://www.gla.ac.in/placements</li>
+			<li>Have a look over here to view the recruiting companies visiting RCOEM : https://www.gla.ac.in/placements</li>
+		</random>
+	  </template>
+    </category>
+	</aiml>
+	
+	
